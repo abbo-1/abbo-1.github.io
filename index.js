@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var movieHTML = movieArray.map(function (currentMovie){
         return `
             <div class="movie">
-                              <div class="card" style="width: 18rem;">
+                              <div class="card" style="width: 18rem; text-align: center;">
                                       <img class="card-img-top" src="${currentMovie.Poster}" alt="Card image cap">
                                       <div class="card-body">
                                           <h5 class="card-title">${currentMovie.Title} <span class="badge badge-secondary">${currentMovie.Year}</span></h5>
